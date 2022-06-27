@@ -1,4 +1,4 @@
-def even_fibonacci_numbers(n):
+def even_fibonacci_numbers(n: int) -> int:
     """Finds the sum of the even fibonacci numbers with values less than n"""
     fib_a, fib_b = 0, 1
     temp = 0
